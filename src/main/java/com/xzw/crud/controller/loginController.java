@@ -22,7 +22,7 @@ public class loginController {
 	private UserService userService;
 
 	/*
-	 * @RequestMapping("index") public String start() { return "index"; }
+	 * @RequestMapping("index") public String start() { return "index"; }试试看有没有更新
 	 */
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
